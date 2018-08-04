@@ -7,7 +7,7 @@
 <!--  ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png) -->
 
 可以价格按照从高到低或者从低到高排列，可以点击任何一项进入预定车辆，选择时间 ：
-<img src = "https://github.com/Fatty-Fish/carrent/raw/master/images/1.jpg" width = "300px" height = "500px" align=center/>
+![pricepage](https://github.com/Fatty-Fish/carrent/raw/master/images/1.jpg)
 ***
 <h4>日期选择页面</h4>
 
