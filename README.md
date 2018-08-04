@@ -4,17 +4,13 @@
 <div align = "center">
 <h4>价格筛选页面</h4>
 
-<!--  ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png) -->
-
 可以价格按照从高到低或者从低到高排列，可以点击任何一项进入预定车辆，选择时间 ：
 ![pricepage](https://github.com/Fatty-Fish/carrent/raw/master/images/1.jpg)
-***
 <h4>日期选择页面</h4>
 
 可以根据需要选择不同日期段，必须先选择起始日期才能调整结束日期：
 
 ![dateadjust](https://github.com/Fatty-Fish/carrent/raw/master/images/2.jpg)
-<!-- <img src = "https://github.com/Fatty-Fish/carrent/raw/master/images/2.jpg" width = "300px" height = "500px" align=center/> -->
 
 <h4>车辆具体信息查看页面</h4>
 
