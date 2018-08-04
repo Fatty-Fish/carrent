@@ -1,0 +1,26 @@
+<view class = "container">
+  <swiper autoplay indicator-dots circular>
+    <swiper-item>
+      <image src="{{targetimg.url}}"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/adv.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="intro">
+    <view class="intro-des">{{targetimg.des}}</view>
+    <view class="intro-price">{{targetimg.rent}}</view>
+    <view class="intro-hot">租用次数： {{targetimg.hot}}</view>
+  </view>
+  <view class = "bottom">
+    <view class = "order">订单</view>
+    <view class = "store" bindtap='goStore'>店铺</view>
+    <view class = "go" bindtap='takeIt'>去预约</view>
+  </view>
+  <view class = "instr-cover">说明：
+    <block wx:for = "{{instruction}}" wx:key = "index">
+    <view class = "instr">{{item}}</view>
+  </block>
+  </view>
+  <view class="tec">技术支持@fatty-fish</view>
+</view>

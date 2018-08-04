@@ -1,0 +1,27 @@
+<swiper autoplay='{{autoplay}}' indicator-dots='{{indicatorDots}}' circular='{{circular}}'>
+  <block wx:for="{{imgs}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="input">
+  <input placeholder="输入关键字搜索" confirm-type='search' bindconfirm='searchInput'></input>
+</view>
+<view class="navigator">
+  <navigator url="" hover-class='navigator-hover'>自行车</navigator>
+  <navigator url="" hover-class='navigator-hover'>汽车</navigator>
+  <navigator url="" hover-class='navigator-hover'>商务车</navigator>
+  <navigator url="" hover-class='navigator-hover'>摩托车</navigator>
+  <navigator url="" hover-class='navigator-hover'>轿车</navigator>
+</view>
+
+<view class="show">
+  <block wx:for="{{imgs}}" wx:key="index">
+    <view class="show-item" id = "{{item.index}}"  bindtap='touchevent'>
+      <image src="{{item.url}}" class="show-imgs"></image>
+      <view class="money">{{item.name}}{{item.rent}}</view>
+    </view>
+  </block>
+</view>
+<view class="tec">技术支持@fatty-fish</view>

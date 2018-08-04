@@ -1,0 +1,18 @@
+<view class = "container">
+<view class = "picker">
+<view class = "price" bindtap='priceTap'>价格</view>
+<view class = "pickBtn" bindtap = "picktap">筛选</view>
+</view>
+<block wx:if = "{{flag}}">
+<view class = "up" id = "upid" bindtap='uptap'>从低到高</view>
+<view class = "down" id = "downid" bindtap='downtap'>从高到低</view>
+</block>
+<block wx:for = "{{imgInfo}}" wx:key = "index">
+<view class = "showCard" bindtap='chosen' id = "{{item.index}}">
+<image src = "{{item.url}}"></image>
+<view class = "desc">{{item.des}}</view>
+<view class = "info">{{item.name}} {{item.rent}}</view>
+</view>
+</block>
+<view class = "tec">技术支持@fatty-fish</view>
+</view>

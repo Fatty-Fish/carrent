@@ -1,0 +1,59 @@
+/* pages/buy/buy.wxss */
+.container {
+  background-color: #eee;
+  margin-bottom: 115rpx;
+}
+swiper {
+  width:100%;
+  height:805rpx;
+}
+swiper image {
+  width:100%;
+  height:100%;
+}
+.intro {
+  position:relative;
+  padding:20rpx;
+  margin-top:10rpx;
+  background-color: white;
+  color: #999;
+  font-size:35rpx;
+}
+.intro .intro-price {
+  color:red;
+  font-size: 40rpx;
+}
+.intro .intro-hot {
+  position: absolute;
+  right:20rpx;
+  bottom:27rpx;
+}
+.bottom {
+  position:fixed;
+  height:115rpx;
+  width:100%;
+  bottom:0;
+  display:flex;
+  text-align: center;
+  line-height: 115rpx;
+  flex-direction: row;
+}
+.order, .store {
+  flex: 2;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color:white;
+}
+.go {
+  flex: 6;
+  border-top: 1px solid #eee;
+  background-color:orangered;
+  color: white;
+}
+.instr-cover {
+  background-color: white;
+  padding: 20rpx 20rpx;
+}
+.instr {
+  margin: 20rpx;
+}

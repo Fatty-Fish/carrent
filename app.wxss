@@ -1,0 +1,7 @@
+.tec{
+  color:#999;
+  font-size: 30rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  background-color:white;
+}

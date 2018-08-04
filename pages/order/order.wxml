@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="start-time">
+    <text>起始日期</text>
+    <text bindtap='startdate'>{{startTime}}</text>
+  </view>
+  <view class="end-time">
+    <text>结束日期</text>
+    <text bindtap='duedate'>{{endTime}}</text>
+  </view>
+  <view class="rent">
+    <text>服务价格</text>
+    <text>{{rent}}</text>
+  </view>
+  <view class="date-frame" wx:if = "{{flag}}">
+    <view class="date-bar"> 
+      <text class="cancel" bindtap = "canceltap">cancel</text>
+      <text class="good" bindtap = "goodtap">ok</text>
+    </view>
+    <view class="date" bindtouchmove='changetime'>
+      <view class = "fore-date">
+        <view class="year" bindtouchstart='yearchange'>{{foreyear}}</view>
+        <view class="month" bindtouchstart='monthchange'>{{foremonth}}</view>
+        <view class="day" bindtouchstart='daychange'>{{hisday}}</view>
+      </view>
+      <view class = "pre-date">
+        <view class="year" bindtouchstart='yearchange'>{{year}}</view>
+        <view class="month" bindtouchstart='monthchange'>{{month}}</view>
+        <view class="day" bindtouchstart='daychange'>{{day}}</view>
+      </view>
+      <view class = "later-date">
+        <view class="year" bindtouchstart='yearchange'>{{lateryear}}</view>
+        <view class="month" bindtouchstart='monthchange'>{{latermonth}}</view>
+        <view class="day" bindtouchstart='daychange'>{{laterday}}</view>
+      </view>
+    </view>
+  </view>
+  <button type='primary' wx:if = "{{flagtrue}}">确认</button>
+</view>

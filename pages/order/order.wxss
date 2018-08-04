@@ -1,0 +1,84 @@
+/* pages/order/order.wxss */
+.container {
+  margin: 20rpx 0;
+  width:100%;
+  height:100%;
+}
+
+.start-time, .end-time, .rent {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-top: 30rpx;
+  color: #777;
+}
+text {
+  padding: 40rpx;
+}
+.start-time, .end-time {
+  border-bottom: 1px solid #999;
+}
+.date-frame {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  background-color: white;
+}
+.date-bar {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cancel {
+  color: #ccc;
+}
+.good {
+  color:#0f3;
+}
+.date {
+  width: 80%;
+  margin: 50rpx auto 50rpx auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.year, .month, .day {
+  width: 110rpx;
+  height: 80rpx;
+  text-align: center;
+  padding: 20rpx;
+  line-height: 80rpx;
+}
+.fore-date, .pre-date, .later-date {
+  margin: 0 40rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fore-date {
+  color: #999;
+  background: linear-gradient(rgba(160, 160, 160, 0.1), rgba(190,190, 190, 0.1), rgba(225, 225, 225, 0.1))
+}
+.later-date {
+  color: #999;
+  background: linear-gradient(rgba(225, 225, 225, 0.1), rgba(190,190, 190, 0.1), rgba(160, 160, 160, 0.1))
+}
+.pre-date .year{
+  border-top: 2px solid #0f3;
+  border-bottom: 2px solid #0f3;
+}
+.pre-date .month {
+  border-top: 2px solid #0f3;
+  border-bottom: 2px solid #0f3;
+}
+.pre-date .day {
+  border-top: 2px solid #0f3;
+  border-bottom: 2px solid #0f3;
+}
+button {
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  bottom: 90rpx;
+}

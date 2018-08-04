@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/cover/cover",
+    "pages/bicycle/bicycle",
+    "pages/index/index",
+    "pages/order/order"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0ff",
+    "navigationBarTitleText": "租车",
+    "navigationBarTextStyle": "black"
+  }
+}

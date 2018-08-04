@@ -1,0 +1,56 @@
+/* pages/bicycle/bicycle.wxss */
+.container {
+  width:100%;
+  height:100%;
+  padding-top: 40rpx;
+}
+.picker {
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.price, .pickBtn {
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+  padding: 20rpx; 
+  margin: 0 80rpx;
+  background:aliceblue;
+}
+.up, .down {
+  border: 1px solid #ccc;
+  margin: 10rpx 10rpx 0 10rpx;
+  padding: 10rpx;
+}
+.up:hover {
+  background-color: aliceblue;
+}
+.down:hover {
+  background-color: aliceblue;
+}
+.showCard {
+  position:relative;
+  padding: 10rpx;
+  background:aliceblue;
+  margin-top:10rpx;
+}
+image {
+  width: 250rpx;
+  height:250rpx;
+}
+.showCard view {
+  margin-left: 300rpx;
+  position:absolute;
+}
+.showCard .desc {
+  top:10rpx;
+  color: #999;
+  font-size:34rpx;
+}
+.showCard .info {
+  top:212rpx;
+  font-size: 29rpx;
+  color: blue;
+}
